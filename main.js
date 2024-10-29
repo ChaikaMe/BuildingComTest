@@ -50,7 +50,7 @@ anime({
   targets: ".logo, .lang-button",
   opacity: [0, 1],
   translateY: [100, 0],
-  duration: 300,
+  duration: 600,
   easing: "easeOutExpo",
   delay: 200,
 });
@@ -59,16 +59,16 @@ anime({
   targets: ".nav-list",
   opacity: [0, 1],
   translateY: [100, 0],
-  duration: 300,
+  duration: 600,
   easing: "easeOutExpo",
-  delay: 500,
+  delay: 600,
 });
 
 anime({
   targets: ".hero-data-wrapper",
   opacity: [0, 1],
   translateY: [100, 0],
-  duration: 300,
+  duration: 600,
   easing: "easeOutExpo",
-  delay: 800,
+  delay: 1000,
 });
