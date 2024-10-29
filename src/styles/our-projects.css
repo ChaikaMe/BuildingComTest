@@ -100,6 +100,10 @@
   height: 25px;
 }
 
+.projects-button:first-child .projects-button-icon {
+  transform: rotate(180deg);
+}
+
 .projects-buttons-wrapper {
   display: flex;
   gap: 20px;
