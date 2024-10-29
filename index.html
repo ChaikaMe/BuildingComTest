@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+    <link
+      href="https://fonts.cdnfonts.com/css/gilroy-bold"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="/src/styles/styles.css" />
+    <title>Build test</title>
+  </head>
+  <body>
+    <main>
+      <section class="hero container">
+        <img
+          class="hero-curve"
+          src="./src/img/HeroSectionCurve.png"
+          alt=""
+        />
+        <header class="header">
+          <img
+            class="logo"
+            src="/src/img/Logo.svg"
+            alt="company logo"
+          />
+          <nav class="navigation">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="nav-link" href="">Projects </a>
+                <svg class="nav-icon">
+                  <use href="./src/img/sprite.svg#icon-arrow-down" />
+                </svg>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">About company</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Cooperation </a>
+                <svg class="nav-icon">
+                  <use href="./src/img/sprite.svg#icon-arrow-down" />
+                </svg>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Contact us</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="lang-button">EN</button>
+        </header>
+        <div class="hero-data-wrapper">
+          <div class="hero-title-wrapper">
+            <p class="hero-title-text">
+              Lorem Ipsum is simply dummy text of the printing
+            </p>
+            <h1 class="hero-title">Company Name</h1>
+          </div>
+          <div class="hero-select-wrapper">
+            <p class="hero-select-text">
+              Lorem Ipsum is <br />
+              simply dummy text of the <br />
+              printing
+              <span class="select-text-span">and typesetting</span>
+              industry.
+            </p>
+            <button class="hero-select-button">
+              Select property
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="our-projects container">
+        <h2 class="our-projects-title">Our projects</h2>
+        <div class="our-projects-wrapper">
+          <ul class="our-projects-list"></ul>
+          <div class="projects-buttons-wrapper">
+            <button class="projects-button">
+              <svg class="projects-button-icon">
+                <use href="./src/img/sprite.svg#icon-arrow-right" />
+              </svg>
+            </button>
+            <button class="projects-button">
+              <svg class="projects-button-icon">
+                <use href="./src/img/sprite.svg#icon-arrow-right" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="our-projects-text-container">
+          <p class="our-projects-text">
+            <span class="our-projects-text-span"
+              >Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry.</span
+            >
+            Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen
+            book. It has survived not only five centuries, but also
+            the leap into electronic typesetting, remaining.
+          </p>
+        </div>
+      </section>
+      <section class="footer">
+        <h2 class="footer-title">More than 10 years</h2>
+        <img
+          class="footer-curve"
+          src="./src/img/bottomSectionCurves.png"
+          alt="curves"
+        />
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

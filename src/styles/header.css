@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 126px;
+  width: 100%;
+}
+
+.logo {
+  max-width: 226px;
+  height: 100%;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 580px;
+  justify-content: space-between;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.nav-icon {
+  width: 8px;
+  height: 5px;
+  margin-bottom: 1px;
+}
+
+.nav-link {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.lang-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+  border: 0 solid transparent;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #4d4d4d;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 475px) {
+  .header {
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: unset;
+    position: relative;
+  }
+  .nav-list {
+    min-width: unset;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    columns: 2;
+    gap: 12px;
+  }
+  .lang-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+}

@@ -1,0 +1,33 @@
+body {
+  --font-family: "Gilroy-Bold", sans-serif;
+  --second-family: "Inter", sans-serif;
+  background-color: #93cadf;
+
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  padding: 20px 60px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 475px) {
+  .container {
+    padding: 12px 20px;
+  }
+}

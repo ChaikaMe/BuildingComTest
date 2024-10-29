@@ -1,0 +1,45 @@
+.footer {
+  background-image: url("../img/footerbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  height: 1100px;
+  position: relative;
+  overflow: visible;
+  z-index: -2;
+}
+
+.footer-curve {
+  position: absolute;
+  top: -1008px;
+  z-index: -1;
+}
+
+.footer-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 110%;
+  background: linear-gradient(270deg, #fff 0%, #f4f4f4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+@media screen and (max-width: 475px) {
+  .footer {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
