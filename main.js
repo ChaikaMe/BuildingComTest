@@ -65,10 +65,19 @@ anime({
 });
 
 anime({
-  targets: ".hero-data-wrapper",
+  targets: ".hero-title-wrapper",
   opacity: [0, 1],
   translateY: [100, 0],
   duration: 600,
   easing: "easeOutExpo",
   delay: 1000,
+});
+
+anime({
+  targets: ".hero-select-wrapper",
+  opacity: [0, 1],
+  translateY: [100, 0],
+  duration: 600,
+  easing: "easeOutExpo",
+  delay: 1400,
 });
